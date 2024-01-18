@@ -13,6 +13,12 @@ The full brief can be viewed [here](./Brief.md).
 - [Credits](#credits)
 - [License](#license)
 
+## Installation
+
+## Usage
+
+The deployed site can be viewed at https://rosiegalezia.github.io/ABC-Fitness-Studio/.
+
 ## Credits
 
 N/A
