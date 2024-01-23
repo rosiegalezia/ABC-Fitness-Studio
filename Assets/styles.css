@@ -43,7 +43,7 @@ font-size: 0.9rem;
 }
 
 .card:hover .overlay {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* CSS */
@@ -60,7 +60,7 @@ font-size: 0.9rem;
 }
 
 .classTimesBtn:hover {
-    background-color: rgb(249, 250, 251);
+    background-color: rgba(249, 250, 251, 1);
 }
 
 .classTimesBtn:focus {
