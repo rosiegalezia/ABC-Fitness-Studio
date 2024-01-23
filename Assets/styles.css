@@ -1,0 +1,106 @@
+:root {
+    --elmgreen: #1a936f;
+    --tradewind: #4eb1a6;
+    --aquaisland: #a7dadc;
+    --cornfield: #f9f7c3;
+    --coral: #f98348;
+
+}
+
+.tableheading {
+    background-color: var(--aquaisland);
+}
+
+.card {
+    border: none !important;
+    border-radius: 20px !important;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.card:hover {
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: var(--tradewind) 7px 7px, var(--elmgreen) 14px 14px !important;
+}
+
+.card-text {
+font-size: 0.9rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.card:hover .overlay {
+    opacity: 0.7;
+}
+
+/* CSS */
+.classTimesBtn {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    /* box-sizing: border-box; */
+    color: #111827;
+    font-size: .875rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.classTimesBtn:hover {
+    background-color: rgb(249, 250, 251);
+}
+
+.classTimesBtn:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.classTimesBtn:focus-visible {
+    box-shadow: none;
+}
+
+h1,
+h2 {
+    font-family: 'Barlow Condensed';
+}
+
+p {
+    font-family: 'Montserrat'
+}
+
+#footer {
+    background-color: var(--elmgreen);
+}
+
+#browse {
+    background-color: var(--cornfield);
+}
+
+.navbar {
+    background-color: var(--aquaisland);
+}
+
+.orangeBtn {
+    background-color: var(--coral);
+    color: white;
+}
+
+.card-img {
+    /* width: 550px;
+    height: 150px;
+    object-fit: cover; */
+    border-radius: 20px !important;
+}

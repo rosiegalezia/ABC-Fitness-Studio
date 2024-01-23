@@ -14,6 +14,7 @@ The full brief can be viewed [here](./Brief.md).
 - [License](#license)
 
 ## Installation
+N/A
 
 ## Usage
 
