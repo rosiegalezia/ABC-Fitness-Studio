@@ -3,7 +3,7 @@ import '../assets/styles.css'
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg p-3">
+        <nav className="navbar navbar-expand-lg p-3 fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     ABC Fitness Studio
@@ -68,6 +68,10 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
+            <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Find your class"/>
+                        <button class="btn btn-primary" type="button">Search</button>
+                </form>
         </nav>
     );
 }
