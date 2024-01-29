@@ -7,12 +7,14 @@ import Home from './Pages/Home';
 import Timetable from './Pages/Timetable';
 import SavedClasses from './Pages/SavedClasses';
 import Contact from './Pages/Contact';
+import BrowseClasses from './Pages/BrowseClasses';
 
 function App() {
     return <Router>
         <NavBar />
         <Routes>
             <Route path="" element={<Home />} />
+            <Route path="browse" element={<BrowseClasses />} />
             <Route path="timetable" element={<Timetable />} />
             <Route path="savedclasses" element={<SavedClasses />} />
             <Route path="contact" element={<Contact />} />

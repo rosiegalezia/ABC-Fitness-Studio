@@ -36,6 +36,17 @@ function NavBar() {
                             <NavLink
                                 className="nav-link active"
                                 aria-current="page"
+                                to="/browse"
+                                end
+                            >
+                                Browse Classes
+                            </NavLink>
+                        </li>
+
+                        <li className="nav-item">
+                            <NavLink
+                                className="nav-link active"
+                                aria-current="page"
                                 to="/timetable"
                                 end
                             >
@@ -51,17 +62,6 @@ function NavBar() {
                                 end
                             >
                                 Saved Classes
-                            </NavLink>
-                        </li>
-
-                        <li className="nav-item">
-                            <NavLink
-                                className="nav-link active"
-                                aria-current="page"
-                                to="/contact"
-                                end
-                            >
-                                Contact
                             </NavLink>
                         </li>
 
