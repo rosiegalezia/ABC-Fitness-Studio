@@ -20,7 +20,7 @@ function App() {
             <Route path="savedclasses" element={<SavedClasses />} />
             <Route path="contact" element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer></Footer>
     </Router>;
 }
 export default App
