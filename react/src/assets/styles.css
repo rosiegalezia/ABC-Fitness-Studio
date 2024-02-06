@@ -11,6 +11,14 @@
     background-color: var(--aquaisland);
     }
 
+.footer {
+    background-color: var(--elmgreen);
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+}
+
 h2 {
 
 }

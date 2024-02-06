@@ -8,6 +8,7 @@ import Timetable from './Pages/Timetable';
 import SavedClasses from './Pages/SavedClasses';
 import Contact from './Pages/Contact';
 import BrowseClasses from './Pages/BrowseClasses';
+import Footer from './Components/Footer';
 
 function App() {
     return <Router>
@@ -19,6 +20,7 @@ function App() {
             <Route path="savedclasses" element={<SavedClasses />} />
             <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer/>
     </Router>;
 }
 export default App
